@@ -92,7 +92,7 @@ $black:rgba(14, 16, 20, 1);
             }
         }
     }
-    @media screen and (max-width:768) {
+    @media screen and (max-width:576px) {
         background-color: $black;
         padding: 10px;
         height: 100px;
