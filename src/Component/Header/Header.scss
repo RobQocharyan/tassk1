@@ -93,12 +93,14 @@ $black:rgba(14, 16, 20, 1);
         }
     }
     @media screen and (max-width:576px) {
-        background-color: #1e1e1e;
-        padding: 0;
+        background-color: $black;
+        padding: 10px;
+        height: 100px;
+        width: 576px;
+
         display: flex;
         position: sticky;
         top: 0;
-        width: 100%;
 
         z-index: 5;
         &__logo{
@@ -109,22 +111,23 @@ $black:rgba(14, 16, 20, 1);
         }
         nav{
             padding: 25px 5px;
-            background-color: $black;
             ul{
                 display: flex;
                 li{
-                    margin-right: 20px;
+                    margin-right: 10px;
                     a{
                         color: $white;
                         font-family: 'Inter', sans-serif;
                         font-weight: 500;
-                        font-size: 25px;
+                        font-size: 20px;
                         line-height: 19.36px;
                         &:hover{
                             color: $blue;
                         }
                     }
-                 
+                    &:first-child{
+                        margin-right: 0;
+                    }
                     &:last-child{
                         display: none;
                     }

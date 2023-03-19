@@ -119,7 +119,11 @@ $black: rgba(14, 16, 20, 1);
   }
 
   @media screen and (max-width: 576px) {
+    width: 576px;
+
+    display: block;
     &__title {
+      
       padding-top: 40px;
 
       padding-left: 35px;

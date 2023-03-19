@@ -157,6 +157,8 @@ $black: rgba(14, 16, 20, 1);
     }
 
     &__left {
+      width: 576px;
+
       a {
         font-family: "Inter", sans-serif;
         font-weight: 400;
@@ -174,13 +176,14 @@ $black: rgba(14, 16, 20, 1);
     }
 
     &__midlle {
+      width: 100%;
       h3 {
         margin-top: 30px;
       }
       .menu {
         display: flex;
         div {
-          width: 50%;
+          width: 40%;
           ul {
             li {
               color: $white;
@@ -202,13 +205,17 @@ $black: rgba(14, 16, 20, 1);
     }
 
     &__right {
+      width: 576px;
+      display: block;
       h3 {
         margin-top: 10px;
         margin-bottom: 20px;
+        display: block;
       }
 
       .rightn-menu {
         a {
+          display: block;
           font-family: "Inter", sans-serif;
           font-weight: 500;
           font-size: 16px;
@@ -223,6 +230,8 @@ $black: rgba(14, 16, 20, 1);
         .icons {
             display: flex;
             align-items: center;
+            justify-content: start;
+            padding: 0;
             margin-top: 10px;
             margin-bottom: 12px;
             svg{
