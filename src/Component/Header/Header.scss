@@ -92,7 +92,7 @@ $black:rgba(14, 16, 20, 1);
             }
         }
     }
-    @media screen and (max-width:576px) {
+    @media screen and (max-width:768px) {
         background-color: $black;
         padding: 10px;
         height: 100px;
@@ -107,12 +107,10 @@ $black:rgba(14, 16, 20, 1);
             display: none;
         }
         nav{
-            padding: 25px 5px;
             display: flex;
 
             ul{
                 li{
-                    margin-right: 10px;
                     a{
                         color: $white;
                         font-family: 'Inter', sans-serif;
