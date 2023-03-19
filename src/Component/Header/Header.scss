@@ -97,11 +97,8 @@ $black:rgba(14, 16, 20, 1);
         padding: 10px;
         height: 100px;
         width: 576px;
-
-        display: flex;
         position: sticky;
         top: 0;
-
         z-index: 5;
         &__logo{
             display: none;
@@ -111,8 +108,9 @@ $black:rgba(14, 16, 20, 1);
         }
         nav{
             padding: 25px 5px;
+            display: flex;
+
             ul{
-                display: flex;
                 li{
                     margin-right: 10px;
                     a{
